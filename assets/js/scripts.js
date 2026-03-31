@@ -14,7 +14,7 @@ const PROJECTS = {
         ]
       }
     ],
-    canva: 'https://ineslalam.my.canva.site/page-10',
+    canva: '/redbull',
     tags: ['Storyboarding', 'Copywriting', 'Direction artistique']
   },
   magazine: {
@@ -32,7 +32,7 @@ const PROJECTS = {
         ]
       }
     ],
-    canva: 'https://ineslalam.my.canva.site/page-11',
+    canva: '/elyseesmarbeuf',
     tags: ['InDesign', 'Photoshop', 'Luxe']
   },
   riwaya: {
@@ -50,7 +50,7 @@ const PROJECTS = {
         ]
       }
     ],
-    canva: 'https://ineslalam.my.canva.site/page-12',
+    canva: '/riwayatravel',
     tags: ['E-commerce', 'Marketing', 'Identité Visuelle']
   },
   omycream: {
@@ -68,7 +68,7 @@ const PROJECTS = {
         ]
       }
     ],
-    canva: 'https://ineslalam.my.canva.site/page-7',
+    canva: '/ohmycream',
     tags: ['CM', 'Copywriting', 'Brevo']
   },
   rabot: {
@@ -86,7 +86,7 @@ const PROJECTS = {
         ]
       }
     ],
-    canva: 'https://ineslalam.my.canva.site/page-6',
+    canva: '/grouperabot',
     tags: ['Événementiel', 'Photo', 'Suite Adobe']
   }
 };

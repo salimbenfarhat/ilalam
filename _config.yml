@@ -14,24 +14,8 @@ description: Étudiante en Communication & Marketing | En recherche d'alternance
 
 # Includes an icon in the footer for each username you enter
 footer-links:
-  dribbble:
-  email: ines.lalam@icloud.com
-  facebook:
-  flickr:
-  github:
-  instagram:
-  linkedin: ines-lalam
-  pinterest:
-  rss:
-  twitter:
-  stackoverflow:
-  youtube:
-  googleplus:
-
-
-# Enter your Disqus shortname (not your username) to enable commenting on posts
-# You can find your shortname on the Settings page of your Disqus account
-disqus:
+  email: ines.lalam@icloud.com  
+  linkedin: ines-lalam  
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics:
@@ -59,15 +43,10 @@ kramdown:
     # Use existing pygments syntax highlighting css
     css_class: 'highlight'
 
-# Set the Sass partials directory, as we're using @imports
-sass:
-  style: :expanded # You might prefer to minify using :compressed
-
 # Use the following plug-ins
 plugins:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
-  - jekyll-redirect-from # Support for redirections
 
 # Exclude these files from your production _site
 exclude:
@@ -82,3 +61,6 @@ collections:
   projects:
     output: true
     permalink: /projets/:path/
+  redirects:
+    output: true
+    permalink: /:title
