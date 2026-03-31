@@ -50,7 +50,7 @@ const PROJECTS = {
         ]
       }
     ],
-    canva: 'https://ineslalam.my.canva.site/page-13',
+    canva: 'https://ineslalam.my.canva.site/page-12',
     tags: ['E-commerce', 'Marketing', 'Identité Visuelle']
   },
   omycream: {
@@ -68,6 +68,7 @@ const PROJECTS = {
         ]
       }
     ],
+    canva: 'https://ineslalam.my.canva.site/page-7',
     tags: ['CM', 'Copywriting', 'Brevo']
   },
   rabot: {
@@ -85,6 +86,7 @@ const PROJECTS = {
         ]
       }
     ],
+    canva: 'https://ineslalam.my.canva.site/page-6',
     tags: ['Événementiel', 'Photo', 'Suite Adobe']
   }
 };
