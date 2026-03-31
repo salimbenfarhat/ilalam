@@ -1500,6 +1500,58 @@ nav {
   background: var(--pink-l) !important
 }
 
+.btn-premium {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 14px 24px;
+  background: linear-gradient(135deg, var(--violet), var(--pink)) !important;
+  color: #fff !important;
+  font-size: 11px;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+  font-weight: 500;
+  border: none;
+  border-radius: 24px !important;
+  cursor: pointer;
+  width: 100%;
+  text-decoration: none;
+  transition: all .3s ease;
+}
+
+.btn-premium:hover {
+  opacity: 0.9;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(232, 48, 122, 0.2);
+}
+
+.btn-rect-pink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 14px 24px;
+  background: var(--pink) !important;
+  color: #fff !important;
+  font-size: 11px;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  font-weight: 500;
+  border: none;
+  border-radius: 1px !important;
+  cursor: pointer;
+  width: 100%;
+  text-decoration: none;
+  transition: background .25s ease;
+}
+
+.btn-rect-pink:hover {
+  background: var(--pink-l) !important;
+}
+
+
+
 .btn-gh {
   color: var(--violet) !important;
   border-color: rgba(124, 58, 237, .3) !important;

@@ -128,18 +128,11 @@ function openProject(id) {
   const canvaBtn = document.getElementById('modal-link-canva');
   if (p.canva) {
     canvaBtn.href = p.canva;
-    canvaBtn.style.display = 'inline-flex';
+    canvaBtn.style.display = 'flex'; // Changed to flex to match HTML display:flex
   } else {
     canvaBtn.style.display = 'none';
   }
 
-  const studyBtn = document.getElementById('modal-link-study');
-  if (p.link) {
-    studyBtn.href = p.link;
-    studyBtn.style.display = 'inline-flex';
-  } else {
-    studyBtn.style.display = 'none';
-  }
 
   overlay.style.display = 'flex';
   document.body.style.overflow = 'hidden';
