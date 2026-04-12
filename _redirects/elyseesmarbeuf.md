@@ -1,4 +1,4 @@
 ---
 layout: redirect
-destination: https://ineslalam.my.canva.site/page-11
+destination: https://ineslalam.my.canva.site/projet-skinlife
 ---

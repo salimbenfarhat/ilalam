@@ -88,6 +88,26 @@ const PROJECTS = {
     ],
     canva: '/grouperabot',
     tags: ['Événementiel', 'Photo', 'Suite Adobe']
+  },
+  supdecom: {
+    img: 'assets/images/supdecom.png',
+    cat: 'Communication Interne · Conception Digitale',
+    title: 'Oh My Cream – Site de communication interne',
+    date: '2026 · Projet Sup’ de Com (Concours Créative Game)',
+    intro: 'Dans le cadre d’un concours créatif organisé par mon école, j’ai conçu un site internet dédié à la communication interne de la marque Oh My Cream. L’objectif était d’imaginer un espace digital permettant d’améliorer la circulation de l’information au sein de l’entreprise et de renforcer l’engagement des équipes.',
+    sections: [
+      {
+        title: 'Points clés', items: [
+          'Stratégie : analyse des besoins et enjeux de comm interne',
+          'Conception : architecture du site et navigation intuitive',
+          'Contenu : rédaction adaptée au ton d’Oh My Cream',
+          'Engagement : réflexion sur l’implication des collaborateurs',
+          'Résultat : projet évalué 16/20 au concours Créative Game'
+        ]
+      }
+    ],
+    canva: '/supdecom',
+    tags: ['Comm Interne', 'UX Design', 'Rédaction Web', 'Stratégie']
   }
 };
 
